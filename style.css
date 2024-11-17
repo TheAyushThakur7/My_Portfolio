@@ -171,3 +171,66 @@ footer {
     background-color: #e65c21; /* Darker shade on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+#ongoing-projects {
+    padding: 50px 0;
+    background-color: #fff; /* Match with other sections for consistency */
+    border-bottom: 2px solid #ddd;
+}
+
+#ongoing-projects h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#ongoing-projects p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.ongoing-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.ongoing-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ongoing-item:hover {
+    transform: translateY(-10px);
+}
+
+.ongoing-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ongoing-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.ongoing-item a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ongoing-item a:hover {
+    text-decoration: underline;
+}
