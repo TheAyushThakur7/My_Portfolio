@@ -234,3 +234,14 @@ footer {
 .ongoing-item a:hover {
     text-decoration: underline;
 }
+.video-wrapper {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the video */
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
